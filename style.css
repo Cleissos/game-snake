@@ -35,6 +35,51 @@ h1 {
     display: block; /* Garante que não haja espaçamento indesejado */
 }
 
+#gameOverScreen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
+    text-align: center;
+    z-index: 100; /* Garante que fique acima do Canvas */
+}
+
+#gameOverScreen h2 {
+    color: red;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#gameOverScreen p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+#restartButton {
+    padding: 10px 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50; /* Verde */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#restartButton:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none; /* Classe para esconder a tela de Game Over */
+}
+
 p {
     margin-top: 15px;
     color: #777;
