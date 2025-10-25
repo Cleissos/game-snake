@@ -58,6 +58,11 @@ h1 {
 #gameOverScreen p {
     font-size: 1.5em;
     margin-bottom: 20px;
+    color: grey;
+}
+
+#finalScore {
+    color: rgb(90, 197, 57);
 }
 
 #restartButton {
@@ -84,4 +89,36 @@ p {
     margin-top: 15px;
     color: #777;
     font-style: italic;
+}
+
+footer .autor {
+    color: #333;
+    font-weight: bold;
+}
+
+footer .autor span {
+    color: #255dcd;
+}
+
+@media screen and (max-width:768px) {
+
+    #gameOverScreen {
+        top: 45%;
+    }
+
+    #gameOverScreen h2{
+        font-size: 2rem;
+    }
+
+    #gameOverScreen p {
+        font-size: 1.2rem;
+    }
+
+    #restartButton {
+        font-size: 1.1rem;
+    }
+
+    #gameCanvas{
+        width: 100%;
+    }
 }
