@@ -102,10 +102,6 @@ footer .autor span {
 
 @media screen and (max-width:768px) {
 
-    #gameOverScreen {
-        top: 45%;
-    }
-
     #gameOverScreen h2{
         font-size: 2rem;
     }
